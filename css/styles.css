@@ -2,11 +2,6 @@
 img {
     max-width: 100%;
 }
-.IntroText {
-    padding: 2.5rem;
-    font-size: 3rem;
-    text-align:left;   
-    }
 
 /*MEDIA QUERIES PARA DISPOSITIVOS CON UN ANCHO MAYOR DE 950 px*/
 /*1 rem equivale al tamano de fuente del elemento (por defecto 16px)*/
@@ -24,8 +19,10 @@ img {
         text-align: center;
     }
     .IntroText {
-        text-align:left;
-    }
+        padding: 2.5rem;
+        font-size: 3rem;
+        text-align:left;   
+        }
     .Ingredients {
         float:right;
         padding: 1rem;
